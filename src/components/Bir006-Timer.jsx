@@ -12,7 +12,29 @@ const Bir006Timer = () => {
     <>
     <section id='Bir006-timer'>
       <div className='nimbus-container'>
-        <div className='Bir006-'></div>
+        <div className='Bir006-Timer'>
+          <div className='Bir006-timertitle'>
+            <h2>Event starts in...</h2>
+          </div>
+          <div className='Bir006-timercount'>
+            <div>
+            <span>00</span>
+            <span>DAYS</span>
+            </div>
+            <div>
+            <span>00</span>
+            <span>HOURS</span>
+            </div>
+            <div>
+            <span>00</span>
+            <span>MINUTES</span>
+            </div>
+            <div>
+            <span>00</span>
+            <span>SECONDS</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     </>
