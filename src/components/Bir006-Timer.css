@@ -3,5 +3,26 @@
   padding: 9.6rem 0;
 }
 .Bir006-Timer{
-  background-color: aliceblue;
+  background-color: #FFE4BB;
+  display: flex;
+  font-family: 'Jomhuria';
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 4rem;
+  width: 60%;
+  margin-left: 20%;
+
+}
+.Bir006-timercount{
+  display: flex;
+  justify-content: center;
+  
+}
+.Bir006-timercount div{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0 10%;
 }
