@@ -1,0 +1,51 @@
+
+.Bir006-specialcontainer {
+    text-align: center;
+    padding: -11px;
+}
+.Bir006-title {
+    font-family: "Jomhuria", serif;
+    padding: 2%;
+    font-weight: 400;
+    font-size: 80px;
+    color: #0b3d2e;
+    margin-bottom: 20px;
+}
+.Bir006-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .Bir006-larrow{
+    font-size: 36px;
+    color: #0b3d2e;
+    cursor: pointer;
+    
+}
+ .Bir006-card {
+    background-color: #0b3d2e;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+    width: 50%;
+}
+ .Bir006-card img {
+    width: 100%;
+    height: auto;
+}
+ .Bir006-date {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+ .Bir006-decoration {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+ .Bir006-footer {
+    margin-top: 20px;
+}
+ .Bir006-footer img {
+    width:40%;
+    height: auto;
+}

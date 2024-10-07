@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  .Bir006-wishescontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .Bir006-left-panel {
+    width: 400px;
+    height: 400px;
+    background-color: #0A3D2A;
+    border-radius: 30px;
+    background-image: url('https://placehold.co/400x400/0a3d2a/0a3d2a.png?text=Leaf+Pattern');
+    background-repeat: repeat;
+  }
+  .Bir006-right-panel {
+    margin-left: 40px;
+    text-align: center;
+  }
+  .Bir006-right-panel h1 {
+    font-size: 28px;
+    color: #0A3D2A;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  .Bir006-right-panel img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .Bir006-right-panel p {
+    font-size: 18px;
+    color: #0A3D2A;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  .Bir006-wishes-button {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #0A3D2A;
+    border-radius: 30px;
+    color: #0A3D2A;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+  }
