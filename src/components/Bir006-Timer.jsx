@@ -11,6 +11,8 @@ const Bir006Timer = () => {
   return (
     <>
     <section id='Bir006-timer'>
+      <img id='left-cloud' className='Bir006-cloud' src={cloud1} alt="" />
+      <img id='right-cloud' className='Bir006-cloud' src={cloud2} alt="" />
       <div className='nimbus-container'>
         <div className='Bir006-Timer'>
           <div className='Bir006-timertitle'>
@@ -18,23 +20,24 @@ const Bir006Timer = () => {
           </div>
           <div className='Bir006-timercount'>
             <div>
-            <span>00</span>
+            <span id='time'>00</span>
             <span>DAYS</span>
             </div>
             <div>
-            <span>00</span>
+            <span id='time'>00</span>
             <span>HOURS</span>
             </div>
             <div>
-            <span>00</span>
+            <span id='time'>00</span>
             <span>MINUTES</span>
             </div>
             <div>
-            <span>00</span>
+            <span id='time'>00</span>
             <span>SECONDS</span>
             </div>
           </div>
         </div>
+        <div className='bir006-'></div>
       </div>
     </section>
     </>

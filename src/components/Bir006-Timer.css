@@ -10,19 +10,39 @@
   align-items: center;
   flex-direction: column;
   font-size: 4rem;
+  color: #01432B;
   width: 60%;
   margin-left: 20%;
+  padding: 2%;
+  border-radius: 25px;
 
 }
 .Bir006-timercount{
   display: flex;
   justify-content: center;
+  padding: 5%;
   
 }
 .Bir006-timercount div{
   display:flex;
   flex-direction: column;
   align-items: center;
-
+  font-family: 'Keep Cheese';
+  font-size: 3rem;
   padding: 0 10%;
+  color: #01432B;
+}
+#time{
+  font-size: 5rem;
+  color: #01432B;
+}
+.Bir006-cloud{
+  position: absolute;
+}
+#left-cloud{
+  left: 0;
+  
+}
+#right-cloud{
+  right: 0;
 }
