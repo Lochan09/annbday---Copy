@@ -2,6 +2,9 @@
   background-color: #01432B;
   padding: 9.6rem 0;
 }
+.Bir006-timercontainer{
+  position: relative;
+}
 .Bir006-Timer{
   background-color: #FFE4BB;
   display: flex;
@@ -45,4 +48,84 @@
 }
 #right-cloud{
   right: 0;
+}
+
+
+#left-cloud {
+  position: absolute;
+  width: 20%;
+  left: 0;
+  transform: translateX(-10rem);
+
+  z-index: 1;
+}
+
+#left-cloud.animate {
+  animation: cloud-1 120s linear alternate-reverse infinite;
+}
+
+#right-cloud {
+  position: absolute;
+  width: 30%;
+  right: -10% ; 
+  transform: translateX(-10rem);
+  z-index: 1;
+}
+
+#right-cloud.animate {
+  animation: cloud-2 240s linear alternate-reverse infinite;
+}
+
+
+
+
+@keyframes cloud-1 {
+  0% {
+    transform: translateX(-10rem);
+  }
+
+  
+  25% {
+    transform: translateX(100vw);
+    top: 30%;
+  }
+
+  50% {
+    transform: translateX(-100vw);
+  }
+
+  75% {
+    transform: translateX(100vw);
+  }
+
+  100% {
+    transform: translateX(-100vw);
+    top: 25%;
+  }
+}
+
+@keyframes cloud-2 {
+  0% {
+    transform: translateX(-10rem);
+  }
+
+  25% {
+    transform: translateX(100vw);
+  }
+
+  50% {
+    transform: translateX(-100vw);
+  }
+
+  75% {
+    transform: translateX(100vw);
+  }
+
+  90% {
+    transform: translateX(-100vw);
+  }
+
+  100% {
+    transform: translateX(100vw);
+  }
 }

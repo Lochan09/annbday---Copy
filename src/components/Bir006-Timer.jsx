@@ -11,6 +11,7 @@ const Bir006Timer = () => {
   return (
     <>
     <section id='Bir006-timer'>
+      <img className='Bir006-timercontainer'></img>
       <img id='left-cloud' className='Bir006-cloud' src={cloud1} alt="" />
       <img id='right-cloud' className='Bir006-cloud' src={cloud2} alt="" />
       <div className='nimbus-container'>
