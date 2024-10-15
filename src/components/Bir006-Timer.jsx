@@ -39,32 +39,35 @@ const Bir006Timer = () => {
             </div>
           </div>
         </div>
-      <div className="Bir006-Pattern-container">
-      <div className="Bir006-imagecontainer">
-          <div className="Bir006-image-wrapper">
-            <div className="Bir006-card">
-              <div className="Bir006-front">
-                <img className="Bir006-front-image" src={pattern} alt="" />
-              </div>
-              <div className="Bir006-back">
-                <img className="Bir006-back-image" src={pattern2} alt="" />
-              </div>
+        <div className="Bir006-Pattern-container">
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">
+              <img src={pattern} alt="Pattern Front" />
+            </div>
+            <div className="card-back">
+              <img src={pattern2} alt="Pattern Back" />
             </div>
           </div>
         </div>
         <div className='Bir006-tdetails'>
           <img src={clebrating} alt="" />
           <div className='Bir006-nameand'>
-          <p>Anna's</p>
-          <p>3rd Birthday</p>
+          <p>ANNA'S</p>
+          <p>3RD BIRTHDAY</p>
           </div>
           <img src={banner} alt="" />
+          <div className='Bir006-personalinfo'>
+            <h3>D/O: NARAYAN SWAMY & LAKSHMI KUMARI</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.Euismod ipsum a tempor nulla ac sollicitudin .Morbi eleifend neque tincidunt nulla nisl integer iaculis. </p>
+          </div>
         </div>
       </div>
-        
       </div>
+      
+        
     </section>
-    </>
+  </>
   );
 };
 
