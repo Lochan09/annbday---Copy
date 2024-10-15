@@ -1,51 +1,54 @@
+#Bir006-special{
+    padding: 9.6rem 0;
+    background-image: url(../assets/Bir006-special/specialbackground.png);
+}
 
-.Bir006-specialcontainer {
-    text-align: center;
-    padding: -11px;
-}
-.Bir006-title {
-    font-family: "Jomhuria", serif;
-    padding: 2%;
-    font-weight: 400;
-    font-size: 80px;
-    color: #0b3d2e;
-    margin-bottom: 20px;
-}
-.Bir006-carousel {
+.bir006-specialcontainer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
- .Bir006-larrow{
-    font-size: 36px;
-    color: #0b3d2e;
-    cursor: pointer;
+
+.bir006-specialcontainer h1{
+    padding: 3%;
+    font-family: 'Jomhuria';
+    font-size: 6rem;
+    color: #01432B;
+}
+
+.Bir006-Imageset{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     
 }
- .Bir006-card {
-    background-color: #0b3d2e;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 0 10px;
-    width: 50%;
-}
- .Bir006-card img {
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #01432B;
+  }
+  
+  .image-item img {
     width: 100%;
     height: auto;
-}
- .Bir006-date {
-    color: #ffffff;
-    font-size: 18px;
-    margin: 10px 0;
-}
- .Bir006-decoration {
-    color: #ffffff;
-    margin-bottom: 10px;
-}
- .Bir006-footer {
+  }
+  
+  .image-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  .Bir006-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFE4BB;
+    padding: 2%;
+    border-radius: 25px;
     margin-top: 20px;
-}
- .Bir006-footer img {
-    width:40%;
-    height: auto;
-}
+  }
