@@ -7,6 +7,7 @@ import pattern2 from '../assets/Bir006-Timer/pattern2.png';
 import info from '../assets/Bir006-Timer/info.svg';
 import clebrating from '../assets/Bir006-Timer/celebrating.svg';
 import banner from '../assets/Bir006-Timer/Namebanner.svg';
+import bg from '../assets/Bir006-Timer/background.png';
 
 const Bir006Timer = () => {
   return (

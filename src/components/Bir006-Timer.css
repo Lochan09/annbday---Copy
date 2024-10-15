@@ -1,5 +1,6 @@
 #Bir006-timer{
-  background-color: #01432B;
+  background-image: url('../assets/Bir006-timer/background.png');
+  background-repeat: repeat;
   padding: 9.6rem 0;
 }
 .Bir006-timercontainer{
@@ -176,4 +177,7 @@
 .Bir006-personalinfo{
   font-family: 'Poppins';
   font-size: 2rem;
+  border: #FFE4BB 2px solid;
+  border-radius: 25px;
+  padding: 3%;
 }
