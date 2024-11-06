@@ -1,0 +1,104 @@
+#Bir006-gallery {
+    background-image: url('../assets/Bir006-Gallery/gallerybackground.png');
+    background-repeat: repeat;
+    padding: 9.6rem 0;
+    position: relative;
+  }
+  
+  .Bir006-gallery-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #01432b;
+    padding: 1% 20%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .Bir006-gallery-navbar a {
+    color: #f5e1a4;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+  }
+  
+  .Bir006-gallery-navbar a:hover {
+    background-color: #0b3d2e;
+    border-radius: 5px;
+  }
+
+  .Bir006-gallery-container{
+    color:#0b3d2e ;
+    font-family: 'Jomhuria';
+    font-weight: 400;
+    font-size: 7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4%;
+    position: relative;
+  }
+
+  .Bir006-gallery-container span{
+    padding:4%;
+  }
+ 
+  #border{
+    position: absolute;
+    left: 36%;
+    top:2%;
+  }
+
+  .Bir006-imagecontainer1{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    height: 30%;
+  }
+
+  .Bir006-imagecontainer1 img{
+    padding: 1%;
+  }
+
+  .Bir006-imagecontainer2{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    height: 30%;
+  }
+
+  .Bir006-imagecontainer2 img{
+    padding: 1%;
+    width: 58%;
+  }
+
+  .Bir006-imagecontainer3{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    height: 30%;
+  }
+
+  .Bir006-imagecontainer3 img{
+    padding: 1%;
+  }
+
+  .Bir006-imagecontainer4{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    height:30%;
+  }
+
+  .Bir006-imagecontainer4 img{
+    padding: 1%;
+    width: 58%;
+  }
+
+  #greenarrow{
+    padding: 4%;
+  }

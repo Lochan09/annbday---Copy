@@ -1,0 +1,29 @@
+#Bir006-contact{
+    padding: 9.6rem 0;
+    background-image: url(../assets/Bir006-contact/contactbackground.png);
+    background-repeat: repeat;
+}
+
+
+.Bir006-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Bir006-icon-box {
+    text-align: center;
+    margin: 0 20px;
+}
+.Bir006-icon-box i {
+    font-size: 50px;
+    color: #004D2C;
+    background-color: #004D2C;
+    border-radius: 50%;
+    padding: 20px;
+}
+.Bir006-icon-box p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #004D2C;
+}

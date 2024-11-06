@@ -53,7 +53,7 @@ const Herosection = () => {
           <h2>BIRTHDAY PARTY</h2>
           <p className="Bir006-date-time">15TH NOV | 3:00PM</p>
 
-          <div className="Bir006-button" href="#">
+          <div className="Bir006-buttonh" href="#">
             <i className="fas fa-map-marker-alt"></i>
             <img src={location} alt="" />
             Open In Maps

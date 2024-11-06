@@ -1,54 +1,98 @@
-#Bir006-special{
-    padding: 9.6rem 0;
-    background-image: url(../assets/Bir006-special/specialbackground.png);
+#Bir006-special {
+  padding: 9.6rem 0;
+  background-image: url('../assets/Bir006-special/specialbackground.png');
+  position: relative;
 }
 
-.bir006-specialcontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.Bir006-specialcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.bir006-specialcontainer h1{
-    padding: 3%;
-    font-family: 'Jomhuria';
-    font-size: 6rem;
-    color: #01432B;
+.Bir006-specialcontainer h1 {
+  padding: 3%;
+  font-family: 'Jomhuria';
+  font-size: 6rem;
+  color: #01432B;
 }
 
-.Bir006-Imageset{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    
+.Bir006-Imageset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 6%;
 }
 
-.image-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #01432B;
-  }
-  
-  .image-item img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .image-item p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #333;
-  }
-  .Bir006-bottom{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #FFE4BB;
-    padding: 2%;
-    border-radius: 25px;
-    margin-top: 20px;
-  }
+#Cartoon {
+  display: flex;
+  position: absolute;
+  bottom: 0; 
+  left: 37%;
+
+}
+
+.Bir006-image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #01432B;
+  position: relative;
+  transition: transform 1.5s ease; 
+  /* Add transition for smooth size change */
+}
+
+.Bir006-image-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 1.5s ease; /* Adjust transition duration for smooth effect */
+}
+
+.Bir006-image-item p {
+  margin-top: 10px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #FFE4BB;
+}
+
+#imageset-design {
+  width: 70%;
+  transition: transform 1.5s ease; /* Adjust transition duration for smooth effect */
+}
+
+.Bir006-image-item:hover {
+  transform: scale(1.1); /* Increase the size of the image item slowly */
+}
+
+
+.Bir006-image-item:hover #imageset-design {
+  transform: translateY(-10px) scale(0.6); 
+}
+
+.Bir006-hidden-message {
+  transition: transform 1.5s ease, opacity 1.5s ease; /* Adjust transition duration for smooth effect */
+  opacity: 0; 
+}
+
+.Bir006-image-item:hover .Bir006-hidden-message {
+  transform: translateY(-10px);
+  opacity: 1; 
+  font-family: 'Poppins';
+  color: #FFE4BB;
+  width: 65%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.Bir006-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFE4BB;
+  padding: 2%;
+  border-radius: 25px;
+  margin-top: 20px;
+}

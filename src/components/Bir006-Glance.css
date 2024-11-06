@@ -1,101 +1,169 @@
+#Bir006-glance {
+  background-image: url('../assets/Bir006-timer/background.png');
+  background-repeat: repeat;
+  padding: 9.6rem 0;
+}
 
 .Bir006-glancecontainer {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #0b3d2e;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width:100% ;
-    left:0%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  left: 0%;
 }
-
 
 .Bir006-left-section, .Bir006-right-section {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Bir006-left-section {
-    text-align: center;
+  text-align: center;
 }
-.Bir006-glancetitle{
-    font-family: "Jomhuria", serif;
-    color:#fdebd0;
-    font-size: 50px;
-
+.Bir006-glancetitle {
+  font-family: "Jomhuria", serif;
+  color: #fdebd0;
+  font-size: 7rem;
+  margin: 3%;
+  padding: 5%;
 }
 .Bir006-left-section h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+  font-size: 2.5em;
+  margin-bottom: 20px;
 }
 .Bir006-left-section img {
-    width: 160px;
-    margin-bottom: 20px;
+  width: 160px;
+  margin-bottom: 20px;
 }
 .Bir006-event-card {
-    font-family: "Jomhuria", serif;
-    font-size: 24px;
-    font-weight: 400;
-    background-color: #F3E5AB;
-    padding: 20px;
-    border-radius: 20px;
-    width: 80%;
-    max-width: 400px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Jomhuria", serif;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #F3E5AB;
+  padding: 20px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .Bir006-event-card h2 {
-    margin: 0;
-    font-size: 1.5em;
-    color: #0B3D2E;
+  margin: 0;
+  font-size: 1.5em;
+  color: #0B3D2E;
 }
 .Bir006-event-card p {
-    margin: 10px 0;
-    font-size: 1.2em;
-    color: #0B3D2E;
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #0B3D2E;
 }
 .Bir006-progress-bar {
-    width: 80%;
-    height: 5px;
-    background-color: #ccc;
-    margin: 10px auto;
-    border-radius: 5px;
-    overflow: hidden;
+  width: 80%;
+  height: 5px;
+  background-color: #ccc;
+  margin: 10px auto;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .Bir006-progress-bar div {
-    width: 50%;
-    height: 100%;
-    background-color: #0B3D2E;
+  width: 50%;
+  height: 100%;
+  background-color: #0B3D2E;
 }
 .Bir006-navigation {
-    display: flex;
-    justify-content: space-between;
-    width: 80px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 0%;
 }
 .Bir006-navigation button {
-    background-color: #F3E5AB;
-    border: none;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.Bir006-navigation button i {
-    color: #0B3D2E;
-    font-size: 1.2em;
+  background-color: #F3E5AB;
+  border: none;
+  border-radius: 50%;
+  width: 3%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .Bir006-right-section img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes jump {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-30px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.jump {
+  animation: jump 1.0s ease-in-out;
+}
+
+.shadow {
+  position: relative;
+}
+
+.shadow:before {
+  content: '';
+  position: absolute;
+  bottom: -10px; /* Adjusted to ensure shadow appears below the element */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.5); /* Change shadow color to white with opacity */
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.5s; /* Smooth transition for shadow */
+}
+
+.shadow.jump:before {
+  animation: shadowJump 1.0s ease-in-out;
+}
+
+@keyframes shadowJump {
+  0% {
+      opacity: 0;
+  }
+  25% {
+      opacity: 0.2;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  75% {
+      opacity: 0.3;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+.Bir006-kidsjumping {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 10%;
+}
+
+.Bir006-kid {
+  margin: 0 10px; /* Add some space between the kids */
 }

@@ -7,15 +7,17 @@ import pattern2 from '../assets/Bir006-Timer/pattern2.png';
 import info from '../assets/Bir006-Timer/info.svg';
 import clebrating from '../assets/Bir006-Timer/celebrating.svg';
 import banner from '../assets/Bir006-Timer/Namebanner.svg';
-import bg from '../assets/Bir006-Timer/background.png';
+
 
 const Bir006Timer = () => {
   return (
     <>
     <section id='Bir006-timer'>
       <img className='Bir006-timercontainer'></img>
+      <div className='Bir006-clouds'>
       <img id='left-cloud' className='Bir006-cloud' src={cloud1} alt="" />
       <img id='right-cloud' className='Bir006-cloud' src={cloud2} alt="" />
+      </div>
       <div className='nimbus-container'>
         <div className='Bir006-Timer'>
           <div className='Bir006-timertitle'>
@@ -64,9 +66,7 @@ const Bir006Timer = () => {
           </div>
         </div>
       </div>
-      </div>
-      
-        
+      </div> 
     </section>
   </>
   );

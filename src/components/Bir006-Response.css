@@ -1,0 +1,109 @@
+#Bir006-response {
+    background-image: url('../assets/Bir006-Response/background.png');
+    background-repeat: repeat;
+    padding: 9.6rem 0;
+    position: relative;
+  }
+  
+  .Bir006-response-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #01432b;
+    padding: 1% 20%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .Bir006-response-navbar a {
+    color: #f5e1a4;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+  }
+  
+  .Bir006-response-navbar a:hover {
+    background-color: #0b3d2e;
+    border-radius: 5px;
+  }
+  
+  .Bir006-response-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0;
+  }
+  
+  .Bir006-response-container-l {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jomhuria';
+    font-size: 5rem;
+    color: #FFE4BB;
+    width: 40%;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .Bir006-response-container-r {
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    color: #01432b;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #FFE4BB;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 4% 2%;
+  }
+  
+  .Bir006-response-arrows {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #Bir006-leftcirle, #Bir006-rightcirle {
+    background-color: #01432b; /* Set background color */
+    color: #ffe4bb; /* Set arrow color */
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .Bir006-response-container-r img {
+    width: 35%;
+    margin-bottom: 15%;
+  }
+  
+  #rstar {
+    position: absolute;
+    top: 15%;
+    left: 60.5%;
+    width: 17%;
+    animation: moveUpDown 2s infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }

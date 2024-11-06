@@ -104,7 +104,7 @@
   font-size: 5rem;
   font-weight: 400;
 }
-.Bir006-button {
+.Bir006-buttonh {
   background-color: #0b3d2e;
   font-family: 'Poppins';
   color: #fdebd0;
@@ -118,7 +118,7 @@
   width: 60%;
   margin-top: 20px;
 }
-.Bir006-button i {
+.Bir006-buttonh i {
   margin-right: 10px;
 }
 .Bir006-image-container {

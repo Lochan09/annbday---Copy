@@ -1,0 +1,74 @@
+#Bir006-sendwish {
+    background-image: url('../assets/Bir006-sendwish/sendwishbackground.png');
+    background-repeat: repeat;
+    padding: 9.6rem 0;
+  }
+
+  .Bir006-sendwish-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0;
+  }
+
+  .Bir006-sendwish-container-l {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jomhuria';
+    font-size: 5rem;
+    color: #01432b;
+    width: 40%;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .Bir006-sendwish-container-r {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    color:  #FFE4BB;
+    padding: 2%;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    font-family: 'Poppins';
+    
+    font-size: 2rem;
+    padding: 11% 2%;
+  }
+
+  
+  .Bir006-sendwish-name{
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    color: #FFE4BB;
+    background-color:#01432b ;
+    padding: 5%;
+    border-radius: 10px;
+  }
+
+  .Bir006-sendwish-message {
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    color: #FFE4BB;
+    background-color:#01432b ;
+    padding: 30%;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+ .Bir006-sendwish-message p{
+  position: absolute;
+  left: 5%;
+  top: 10%;
+
+ }
+
+
