@@ -8,15 +8,18 @@ const Bir006Contact = () => {
     <section id="Bir006-contact">
        <div className="Bir006-container">
         <div className="Bir006-icon-box">
-            <img src={call} alt="" width='100' height='100'/>
+            <div className="Bir006-call">  
+            <img src={call} alt="" id='call'/>
             <p>Contact</p>
-        
-       
+            </div>
+            <div className="Bir006-nav">    
             <img src={nav} alt="" />
             <p>Location</p>
-       
+            </div>
+            <div className="Bir006-schedule">
             <img src={schedule} alt="" />
             <p>Schedule</p>
+            </div>
         </div>
     </div>
     </section>

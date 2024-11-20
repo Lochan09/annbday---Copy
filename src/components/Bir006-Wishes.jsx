@@ -1,5 +1,6 @@
 import React from 'react';
 import './Bir006-Wishes.css';
+import { Link } from 'react-router-dom';
 import teddy from '../assets/Bir006-wishes/teddy.svg';
 import '../assets/Bir006-wishes/wishesbackground.png';
 import item1 from '../assets/Bir006-wishes/item1.svg';
@@ -10,6 +11,8 @@ import item5 from '../assets/Bir006-wishes/item5.svg';
 
 const Bir006Wishes = () => {
   return (
+    <section id='Bir006-wishes'>
+    <div className="nimbus-container">
     <div className="Bir006-wishescontainer" id="Bir006-wishes">
     <div className="Bir006-left-panel">
       <img src={item1} alt=""id='item1'/>
@@ -26,12 +29,14 @@ const Bir006Wishes = () => {
      <p>
       Send your heartfelt wishes and discover The warm words From Our Loved Once
      </p>
-     <button className='Bir006-Wishesbutton'>
+     <Link to="/response" className='Bir006-Wishesbutton'>
       View All
-      
-     </button>
+     </Link>
+     
     </div>
    </div>
+   </div>
+   </section>
   );
 };
 

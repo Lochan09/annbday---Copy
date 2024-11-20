@@ -1,6 +1,7 @@
 #Bir006-magical{
     background-image: url('../assets/Bir006-timer/background.png');
     background-repeat: repeat;
+    background-size: 50%;
     padding: 9.6rem 0;
     display: flex;
     
@@ -58,7 +59,8 @@
     background-color: transparent;
     border: 2px solid #f5e1a4;
     color: #f5e1a4;
-    margin-left: 40%;
+    margin:0 44%;
+    font-family: 'Poppins';
     width: 20%;
     padding: 10px 20px;
     border-radius: 25px;

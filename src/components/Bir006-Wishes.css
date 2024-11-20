@@ -1,6 +1,7 @@
 #Bir006-wishes{
   padding: 9.6rem 0;
   background-image: url(../assets/Bir006-wishes/wishesbackground.png);
+  background-size: 75%;
 }
 
 * {
@@ -23,6 +24,7 @@
     border-radius: 30px;
     background-image: url(../assets/Bir006-wishes/background.png);
     background-repeat: repeat;
+    background-size: 90%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -214,14 +216,15 @@
     padding: 10px 30px;
     border: 2px solid #0A3D2A;
     border-radius: 30px;
-    color: #0A3D2A; /* Initial text color */
+    color: #0A3D2A; 
     text-decoration: none;
+    font-family: 'Poppins';
     font-size: 18px;
     font-weight: 700;
-    position: relative; /* To position the pseudo-element */
-    overflow: hidden; /* To hide the filling effect */
+    position: relative;
+    overflow: hidden; 
     background: none;
-    transition: color 0.5s ease; /* Smooth transition for text color */
+    transition: color 0.5s ease; 
   }
   
   .Bir006-Wishesbutton::before {

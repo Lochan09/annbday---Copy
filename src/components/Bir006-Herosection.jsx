@@ -1,5 +1,6 @@
 import React from "react";
 import '../App.css';
+import { Link } from 'react-router-dom';
 import "./Bir006-Herosection.css";
 import image from "../assets/Bir006-herosection/child.svg";
 import decoration from "../assets/Bir006-herosection/star.svg";
@@ -9,11 +10,12 @@ import location from "../assets/Bir006-herosection/Location.svg";
 
 const Herosection = () => {
   return (
+    
     <div className="nimbus-container">
       <div className="Bir006-navbar">
         <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Gallery</a>
+        <a href=".Bir006-Pattern-container">About</a>
+        <Link to="/gallery">Gallery</Link>
         <a href="#">Location</a>
       </div>
       <img className="Bir006-lleaf" src={rleaf} alt="" />

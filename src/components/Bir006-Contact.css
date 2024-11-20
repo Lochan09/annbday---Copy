@@ -2,6 +2,7 @@
     padding: 9.6rem 0;
     background-image: url(../assets/Bir006-contact/contactbackground.png);
     background-repeat: repeat;
+    background-size: 75%;
 }
 
 
@@ -9,11 +10,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 30%;
+    width: 40%;
+    margin-left: 30%;
 }
 .Bir006-icon-box {
     text-align: center;
-    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .Bir006-icon-box i {
     font-size: 50px;
@@ -24,6 +29,40 @@
 }
 .Bir006-icon-box p {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 5rem;
+    font-family: 'Poppins';
     color: #004D2C;
+}
+
+.Bir006-call{
+    color: #004D2C;
+    padding: 15px 30px;
+    border-radius: 100%;
+    text-decoration: none;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3%;
+}
+
+.Bir006-nav{
+    color: #004D2C;
+    padding: 15px 30px;
+    border-radius: 100%;
+    text-decoration: none;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3%;
+}
+
+.Bir006-schedule{
+    color: #004D2C;
+    padding: 15px 30px;
+    border-radius: 100%;
+    text-decoration: none;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3%;
 }

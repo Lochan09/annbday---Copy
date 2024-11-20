@@ -1,0 +1,17 @@
+#Bir006-invitation{
+    background-color: white;
+
+}
+
+.Bir006-invitation{
+    display: flex;
+    flex-direction: column;
+    padding:3%;
+    width:40%;
+    height: 20%;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 30%;
+
+
+}

@@ -1,51 +1,51 @@
-
 .Bir006-navbar {
   background-color: #0b3d2e;
-  position: relative;
+  position: absolute;
   text-align: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
   font-size: 2.0em;
   padding: 20px;
-  width: 126%;
+  width: 100%;
   display: flex;
-  margin: 0px -13%;
+  left: 0;
+  right: 0;
+  z-index: 5;
 }
 
 .Bir006-navbar a {
   color: #fdebd0;
   text-decoration: none;
   margin: 3px 3%;
-  
-  padding:20px
+  padding: 20px;
 }
-.Bir006-lleaf{
+
+.Bir006-lleaf {
   position: absolute;
   left: 0%;
 }
-.Bir006-rleaf{
+
+.Bir006-rleaf {
   position: absolute;
   right: 0%;
 }
+
 .Bir006-content {
   justify-content: center;
-  display: flex;   
-  flex-direction: column; 
-  align-items: center ;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   font-family: "Jomhuria", serif;
-  position: relative ;
+  position: relative;
   font-size: 60px;
   font-weight: 400;
   color: #0b3d2e;
   width: 50%;
-  margin-left: 2%;
+  left: -18%;
+  margin: 0 auto;
   top: 30rem;
-  left: 5rem;
 }
-
-
 
 .arc-text {
   font-family: "Jomhuria", sans-serif;
@@ -54,8 +54,8 @@
   font-weight: 400;
   position: relative;
   top: -30rem;
-  left: -33rem;
-  transform: rotate(20deg);
+  left: 25%;
+  transform: translateX(-50%) rotate(20deg);
 }
 
 .arc-text span {
@@ -64,9 +64,9 @@
   text-align: center;
   transform-origin: bottom center;
   margin: 0 20px;
-  padding:30% ;
+  padding: 30%;
   left: 30%;
-  top:20%;
+  top: 20%;
 }
 
 .char1 { transform: rotate(-69deg); }
@@ -97,13 +97,13 @@
 .char26 { transform: rotate(26deg); }
 .char27 { transform: rotate(30deg); }
 
-
 .Bir006-content .Bir006-date-time {
   font-family: "Jomhuria", sans-serif;
-  color: #004225; 
+  color: #004225;
   font-size: 5rem;
   font-weight: 400;
 }
+
 .Bir006-buttonh {
   background-color: #0b3d2e;
   font-family: 'Poppins';
@@ -118,44 +118,46 @@
   width: 60%;
   margin-top: 20px;
 }
+
 .Bir006-buttonh i {
   margin-right: 10px;
 }
+
 .Bir006-image-container {
   position: relative;
   display: inline-block;
   margin-top: 30px;
-  left:798.52px;
-  transform: rotate(-2.53deg) ;
-  
+  left: 50%;
+  transform: translateX(-50%) rotate(-2.53deg);
 }
+
 .Bir006-image-container img {
   border-radius: 15px;
-  width: 421.67px;
-  height: 441.87px;
-  top:308px;
-  left:798.52px;
-  
+  width: 100%;
+  max-width: 421.67px;
+  height: auto;
 }
-
 
 .Bir006-arc-text {
-
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-width: 662.11px;
-height: 391.49px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  max-width: 662.11px;
+  height: auto;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
- 
-#parent{position: relative;top:-5rem;;left:89rem;transform: rotate(3deg);}
 
+#parent {
+  position: relative;
+  top: -5rem;
+  left: 118%;
+  transform: translateX(-50%) rotate(3deg);
+}
 
 .Bir006-decoration {
   position: relative;
@@ -164,7 +166,6 @@ flex-grow: 0;
   width: 300px;
   height: 400px;
   pointer-events: none;
- 
 }
 
 .Bir006-childface {
@@ -172,6 +173,6 @@ flex-grow: 0;
   width: 300px;
   height: 400px;
   pointer-events: none;
-  top:10em;
-  left:9em
+  top: 10em;
+  left: 9em;
 }
